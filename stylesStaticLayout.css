@@ -1,0 +1,215 @@
+html {
+    background: linear-gradient(130deg, rgba(58, 31, 93, .89) 0%, rgba(24, 38, 90, .89) 50%, rgba(21, 54, 92, .89) 100%);
+}
+
+body {
+    height: 205vh;
+    width: 80vw;
+    margin: auto;
+    
+}
+.navbar1 {
+    position: fixed;
+    font-size: 100px;
+    margin: 10px;
+    background-color:rgb(163, 164, 168, 20%);
+    border-radius: 10%;
+    z-index: 5;
+
+    stroke: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    color: white;
+}
+
+.navbar2 {
+    position: fixed;
+    
+    list-style-type: none;
+    left: 1350px;
+    z-index: 5;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: rgb(163, 164, 168, 20%);
+    border-radius: 10%;
+}
+
+.navbar2 li {
+    display: inline;
+    flex: auto;
+    font-size: 30px;
+}
+div {
+    position: relative;
+    width: 1000px;
+    vertical-align: middle;
+    
+}
+
+.center{
+    width: 70%;
+    position: relative;
+    top: 30px;
+    bottom: 90px;
+    right: 0px;
+    left: 475px;
+}
+
+.primary-button {
+    background-color: orange;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 730px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 100px;
+
+    margin: auto;
+    outline: auto rgb(150, 102, 14) ;
+   
+    z-index: 1;
+}
+
+.paragraphCentered {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+    color: white;
+    bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 1000px;
+    position: relative;
+    left: 315px;
+
+    margin: auto;
+   
+}
+
+.underlyingText {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    width: 1000px;
+    position: relative;
+    left: 320px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.sectionWhite {
+    background-color: white;
+    height: 900px;
+    width: 2200px;
+    position: absolute;
+
+    right: 0px;
+    top: 1035px;
+    z-index: 1;
+
+}
+
+.splashSale {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    top: 170px;
+    left: 20px;
+    z-index: 5;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    grid-auto-flow: row;
+    z-index: 5;
+
+    top: 190px;
+    left: 350px;
+}
+
+.popcorn {
+    z-index: 5;
+    background-color: transparent;
+
+    height: 10vh;
+    width: 10vh;
+
+    left: 340px;
+    bottom: 220px;
+}
+
+.letter {
+    z-index: 5;
+    height: 9vh;
+    width: 9vh;
+
+    left: 340px;
+    bottom: 190px;
+}
+
+.heart {
+    z-index: 5;
+    height: 9vh;
+    width: 9vh;
+
+    left: 340px;
+    bottom: 160px;
+}
+
+.paragraphCentered2 {
+    font-size: 25px;
+    z-index: 5;
+    text-align: center;
+    left: 350px;
+    bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primary-button2 {
+    background-color: orange;
+    height: 10px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 800px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 10px;
+
+    margin: auto;
+    outline: auto rgb(150, 102, 14) ;
+    z-index: 5;
+}
+
+.primary-button3 {
+    background-color: orange;
+    height: 20px;
+    position: relative;
+    top: 50px;
+    bottom: 0px;
+    right: 0px;
+    left: 630px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 100px;
+
+    margin: auto;
+    outline: auto rgb(150, 102, 14) ;
+    z-index: 5;
+}
